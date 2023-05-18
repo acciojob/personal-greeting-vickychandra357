@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-       <h2>Enter your name:</h2>
+       <p>Enter your name:</p>
         <Form updateName={setName}/>
         {name && <p>Hello {name}!</p>}
     </div>
